@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="compilerconfig.json" />
+    <None Include="wwwroot\images\bg-pattern-bottom.svg" />
+    <None Include="wwwroot\images\bg-pattern-card.svg" />
+    <None Include="wwwroot\images\bg-pattern-top.svg" />
+    <None Include="wwwroot\images\favicon-32x32.png" />
+    <None Include="wwwroot\images\image-victor.jpg" />
+  </ItemGroup>
+
+</Project>

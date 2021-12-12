@@ -1,0 +1,57 @@
+﻿.card {
+    max-width: 325px;
+    border-radius: 20px;
+    background: white;
+    text-align: center;
+
+    &__banner {
+        border-radius: 20px 20px 0 0;
+        min-width: 100%;
+    }
+
+    &__profile {
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-top: -3.5rem;
+        margin-bottom: 1rem;
+    }
+
+    &__name, &__age {
+        font-size: 1.2rem;
+    }
+
+    &__name {
+        margin-right: 1rem;
+        margin-bottom: 0.5rem;
+        font-weight: $font-weight-700;
+    }
+
+    &__age, &__location {
+        color: $dark-grey;
+    }
+
+    &__location {
+        margin-bottom: 1.5rem;
+    }
+
+    &__line {
+        border-top: 1px solid $dark-grey;
+        margin-bottom: 1.5rem;
+    }
+
+    &__stat {
+        margin-bottom: 1.5rem;
+
+        .stat-number {
+            font-weight: $font-weight-700;
+            font-size: 1.2rem;
+            margin-bottom: 0.4rem;
+        }
+
+        .stat-name {
+            color: $dark-grey;
+            letter-spacing: 0.1rem;
+            font-size: 0.8rem;
+        }
+    }
+}
